@@ -95,3 +95,7 @@ Create Collections (Optional):
 Collections are analogous to tables in a relational database. You can create collections as needed for your application data. Collections are created implicitly when data is inserted into them.
 
 Now that you have MongoDB set up and a database created, you can proceed with integrating it into your Nest project following the steps outlined in the previous response. Remember to update the MongoDB connection URI in your configuration file (mongo.config.ts) with the appropriate values for your MongoDB server.
+
+ **the MongooseModule** class from the @nestjs/mongoose package.
+ MongooseModule is a module provided by NestJS for integrating Mongoose with NestJS applications.
+ It provides utilities for setting up Mongoose connections, defining schemas, and creating Mongoose models.
