@@ -82,7 +82,7 @@ First, you need to install MongoDB on your machine. You can download the MongoDB
 ### Start MongoDB Server:
 Once MongoDB is installed, you need to start the MongoDB server. 
 You can usually start it with the following command:
-`mongod
+`mongod`
 
 This command will start the MongoDB server on the default port (27017).
 
