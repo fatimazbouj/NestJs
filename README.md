@@ -91,8 +91,7 @@ Next, you'll need to create a database.
 You can do this using the MongoDB shell or a MongoDB GUI( Graphical User Interface) client like MongoDB Compass.
 `use mydatabase`
 Replace mydatabase with the name you want to give to your database.
-
-    Create Collections (Optional):
-    Collections are analogous to tables in a relational database. You can create collections as needed for your application data. Collections are created implicitly when data is inserted into them.
+Create Collections (Optional):
+Collections are analogous to tables in a relational database. You can create collections as needed for your application data. Collections are created implicitly when data is inserted into them.
 
 Now that you have MongoDB set up and a database created, you can proceed with integrating it into your Nest project following the steps outlined in the previous response. Remember to update the MongoDB connection URI in your configuration file (mongo.config.ts) with the appropriate values for your MongoDB server.
