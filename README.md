@@ -99,3 +99,8 @@ Now that you have MongoDB set up and a database created, you can proceed with in
  **the MongooseModule** class from the @nestjs/mongoose package.
  MongooseModule is a module provided by NestJS for integrating Mongoose with NestJS applications.
  It provides utilities for setting up Mongoose connections, defining schemas, and creating Mongoose models.
+
+ **To use passport-jwt** with Nest, we also need to install @nestjs/jwt.
+
+$ npm install --save @nestjs/jwt passport-jwt
+$ npm install --save-dev @types/passport-jwt
