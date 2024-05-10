@@ -102,8 +102,8 @@ Now that you have MongoDB set up and a database created, you can proceed with in
  It provides utilities for setting up Mongoose connections, defining schemas, and creating Mongoose models.
 
  **To use passport-jwt** with Nest, we also need to install @nestjs/jwt.
-
 $ npm install --save @nestjs/jwt passport-jwt
 $ npm install --save-dev @types/passport-jwt
+
 =======
 >>>>>>> 14c74b0 (nest authentication)
