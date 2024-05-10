@@ -71,6 +71,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+<<<<<<< HEAD
 
 ## Authentication Module:
 
@@ -104,3 +105,5 @@ Now that you have MongoDB set up and a database created, you can proceed with in
 
 $ npm install --save @nestjs/jwt passport-jwt
 $ npm install --save-dev @types/passport-jwt
+=======
+>>>>>>> 14c74b0 (nest authentication)
