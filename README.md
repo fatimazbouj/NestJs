@@ -104,3 +104,5 @@ Now that you have MongoDB set up and a database created, you can proceed with in
 $ npm install --save @nestjs/jwt passport-jwt
 $ npm install --save-dev @types/passport-jwt
 
+**insatll passport**
+npm i --save @nestjs/passport passport passport-local
