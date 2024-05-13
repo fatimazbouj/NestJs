@@ -71,3 +71,27 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Authentication Module:
+
+`MongoDb` will be our database for this simple so let's set it up!
+
+### Install MongoDB:
+First, you need to install MongoDB on your machine. You can download the MongoDB Community Server from the official MongoDB website: MongoDB Download Center.
+
+### Start MongoDB Server:
+Once MongoDB is installed, you need to start the MongoDB server. 
+You can usually start it with the following command:
+`mongod`
+
+This command will start the MongoDB server on the default port (27017).
+
+### Create a Database:
+Next, you'll need to create a database.
+You can do this using the MongoDB shell or a MongoDB GUI( Graphical User Interface) client like MongoDB Compass.
+`use mydatabase`
+Replace mydatabase with the name you want to give to your database.
+Create Collections (Optional):
+Collections are analogous to tables in a relational database. You can create collections as needed for your application data. Collections are created implicitly when data is inserted into them.
+
+Now that you have MongoDB set up and a database created, you can proceed with integrating it into your Nest project following the steps outlined in the previous response. Remember to update the MongoDB connection URI in your configuration file (mongo.config.ts) with the appropriate values for your MongoDB server.
